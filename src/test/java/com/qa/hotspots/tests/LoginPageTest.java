@@ -1,32 +1,12 @@
 package com.qa.hotspots.tests;
 
-import java.util.Properties;
-
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import com.qa.hotspots.base.Base;
-import com.qa.hotspots.pages.LoginPage;
+import com.qa.hotspots.base.BaseTest;
 import com.qa.hotspots.utils.Constants;
 
-public class LoginPageTest {
-	WebDriver driver;
+public class LoginPageTest extends BaseTest{
 	
-	Base base;   // create object of base class
-	LoginPage loginPage;      //constructor for loginpage. use to call all the method in loginpage
-	Properties prop;
-	
-		@BeforeTest
-		public void setUp() {
-			base = new Base();
-			prop = base.inti_prop();  // it will give me propertis class object
-			driver = base.init_driver(prop);
-			loginPage = new LoginPage(driver);
-	}
-
 		@Test(priority=2)
 		public void verifyLoginPageTitleTest() {
 			String title = loginPage.getLoginPageTile();
@@ -44,8 +24,5 @@ public class LoginPageTest {
 			loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		}
 		
-		@AfterTest
-		public void tearDown() {
-			driver.quit();
-		}
+	
 }

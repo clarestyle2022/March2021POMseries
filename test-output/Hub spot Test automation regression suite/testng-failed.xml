@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Hub spot Test automation regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="2" parallel="tests" name="home page test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.hotspots.tests.HomePageTest">
+        <methods>
+          <include name="verifyLoggedInUserTest"/>
+          <include name="homeSetUP"/>
+          <include name="verifyHomePageTile"/>
+          <include name="setUp"/>
+          <include name="veriyHomePageHeader"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hotspots.tests.HomePageTest -->
+    </classes>
+  </test> <!-- home page test(failed) -->
   <test thread-count="2" parallel="tests" name="login page test(failed)" verbose="3">
     <classes>
       <class name="com.qa.hotspots.tests.LoginPageTest">

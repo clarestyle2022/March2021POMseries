@@ -15,5 +15,12 @@
 		</classes>
 	</test> 
 	
+	<test name="Contact Page Test">
+		<classes>
+			<class name="com.qa.hotspots.tests.ContactPageTest" />
+		</classes>
+	</test> 
+	
+	
 </suite> 
 

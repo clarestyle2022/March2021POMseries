@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+import com.qa.hotspots.utils.ElementUtil;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 /*
@@ -20,7 +22,8 @@ public class Base {
 	
 	WebDriver driver;
 	Properties prop;
-	
+	public ElementUtil elementUtil;
+	  
 	/* this method is used to initialize the WebDriver on the basis of browser
 	 * @parameter browserName
 	 * @return driver
@@ -54,6 +57,7 @@ public class Base {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
+
 		
 		return driver;
 

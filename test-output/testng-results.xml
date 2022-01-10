@@ -1,89 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-03T04:26:33 GMT" name="Hub spot Test automation regression suite" finished-at="2021-12-03T04:27:01 GMT" duration-ms="27748">
+  <suite started-at="2021-12-08T16:04:35 GMT" name="Default suite" finished-at="2021-12-08T16:04:49 GMT" duration-ms="13855">
     <groups>
     </groups>
-    <test started-at="2021-12-03T04:26:33 GMT" name="home page test" finished-at="2021-12-03T04:26:59 GMT" duration-ms="26133">
-      <class name="com.qa.hotspots.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hotspots.tests.HomePageTest@67c27493]" started-at="2021-12-03T04:26:33 GMT" name="setUp" finished-at="2021-12-03T04:26:57 GMT" duration-ms="24003" status="PASS">
+    <test started-at="2021-12-08T16:04:35 GMT" name="Default test" finished-at="2021-12-08T16:04:49 GMT" duration-ms="13855">
+      <class name="com.qa.hotspots.tests.ContactPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hotspots.tests.ContactPageTest@4567f35d]" started-at="2021-12-08T16:04:35 GMT" name="setUp" finished-at="2021-12-08T16:04:39 GMT" duration-ms="4036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="veriyHomePageHeader()[pri:1, instance:com.qa.hotspots.tests.HomePageTest@67c27493]" started-at="2021-12-03T04:26:57 GMT" name="veriyHomePageHeader" finished-at="2021-12-03T04:26:58 GMT" duration-ms="1357" status="PASS">
+        <test-method is-config="true" signature="contactsSetup()[pri:0, instance:com.qa.hotspots.tests.ContactPageTest@4567f35d]" started-at="2021-12-08T16:04:39 GMT" name="contactsSetup" finished-at="2021-12-08T16:04:46 GMT" duration-ms="6554" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- veriyHomePageHeader -->
-        <test-method signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.hotspots.tests.HomePageTest@67c27493]" started-at="2021-12-03T04:26:58 GMT" name="verifyLoggedInUserTest" finished-at="2021-12-03T04:26:59 GMT" duration-ms="221" status="PASS">
+        </test-method> <!-- contactsSetup -->
+        <test-method signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hotspots.tests.ContactPageTest@4567f35d]" started-at="2021-12-08T16:04:46 GMT" name="verifyContactsPageTitleTest" finished-at="2021-12-08T16:04:46 GMT" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method signature="verifyHomePageTile()[pri:3, instance:com.qa.hotspots.tests.HomePageTest@67c27493]" started-at="2021-12-03T04:26:59 GMT" name="verifyHomePageTile" finished-at="2021-12-03T04:26:59 GMT" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hotspots.tests.HomePageTest@67c27493]" started-at="2021-12-03T04:26:59 GMT" name="tearDown" finished-at="2021-12-03T04:26:59 GMT" duration-ms="487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hotspots.tests.HomePageTest -->
-    </test> <!-- home page test -->
-    <test started-at="2021-12-03T04:26:33 GMT" name="login page test" finished-at="2021-12-03T04:27:01 GMT" duration-ms="27748">
-      <class name="com.qa.hotspots.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hotspots.tests.LoginPageTest@44ebcd03]" started-at="2021-12-03T04:26:33 GMT" name="setUp" finished-at="2021-12-03T04:26:39 GMT" duration-ms="6010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hotspots.tests.LoginPageTest@44ebcd03]" started-at="2021-12-03T04:26:39 GMT" name="verifySignUpLinkTest" finished-at="2021-12-03T04:26:39 GMT" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkTest -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hotspots.tests.LoginPageTest@44ebcd03]" started-at="2021-12-03T04:26:39 GMT" name="verifyLoginPageTitleTest" finished-at="2021-12-03T04:26:39 GMT" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method signature="loginTest()[pri:3, instance:com.qa.hotspots.tests.LoginPageTest@44ebcd03]" started-at="2021-12-03T04:26:39 GMT" name="loginTest" finished-at="2021-12-03T04:27:00 GMT" duration-ms="20814" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- verifyContactsPageTitleTest -->
+        <test-method signature="creatContactTest()[pri:2, instance:com.qa.hotspots.tests.ContactPageTest@4567f35d]" started-at="2021-12-08T16:04:46 GMT" name="creatContactTest" finished-at="2021-12-08T16:04:49 GMT" duration-ms="2530" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"Go to my dashboard")]"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'LAPTOP-35B7MCU5', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bf8a0a6b3ccbdd9909be736191072db4, findElement {using=xpath, value=//*[contains(text(),"Go to my dashboard")]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\clare\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60867/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bf8a0a6b3ccbdd9909be736191072db4]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"Go to my dashboard")]"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'LAPTOP-35B7MCU5', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bf8a0a6b3ccbdd9909be736191072db4, findElement {using=xpath, value=//*[contains(text(),"Go to my dashboard")]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\clare\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60867/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bf8a0a6b3ccbdd9909be736191072db4
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at com.qa.hotspots.pages.LoginPage.doLogin(LoginPage.java:39)
-at com.qa.hotspots.tests.LoginPageTest.loginTest(LoginPageTest.java:44)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+at com.qa.hotspots.utils.ElementUtil.doSendKeys(ElementUtil.java:38)
+at com.qa.hotspots.pages.ContactsPage.createContact(ContactsPage.java:61)
+at com.qa.hotspots.tests.ContactPageTest.creatContactTest(ContactPageTest.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,24 +46,29 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hotspots.tests.LoginPageTest@44ebcd03]" started-at="2021-12-03T04:27:00 GMT" name="tearDown" finished-at="2021-12-03T04:27:01 GMT" duration-ms="557" status="PASS">
+        </test-method> <!-- creatContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hotspots.tests.ContactPageTest@4567f35d]" started-at="2021-12-08T16:04:49 GMT" name="tearDown" finished-at="2021-12-08T16:04:49 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hotspots.tests.LoginPageTest -->
-    </test> <!-- login page test -->
-  </suite> <!-- Hub spot Test automation regression suite -->
+      </class> <!-- com.qa.hotspots.tests.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

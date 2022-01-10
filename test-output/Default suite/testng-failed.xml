@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.hotspots.tests.LoginPageTest">
+      <class name="com.qa.hotspots.tests.ContactPageTest">
         <methods>
+          <include name="contactsSetup"/>
+          <include name="creatContactTest"/>
           <include name="setUp"/>
-          <include name="verifyLoginPageTitleTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.hotspots.tests.LoginPageTest -->
+      </class> <!-- com.qa.hotspots.tests.ContactPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
