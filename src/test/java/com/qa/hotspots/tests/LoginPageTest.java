@@ -22,6 +22,10 @@ public class LoginPageTest extends BaseTest{
 		@Test(priority=3)
 		public void loginTest() {
 			loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+		}  
+		
+		public void moblile() {
+			
 		}
 		
 	
